@@ -1,1 +1,36 @@
+*{
 
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container article:nth-child(1){
+background-color: rgb(21, 99, 21);
+
+}
+
+.container article:nth-child(2){
+    background-color: rgb(116, 136, 80);
+}
+
+.container article:nth-child(3){
+    background-color: rgb(95, 120, 95);
+}
+
+.header{
+
+    grid-area:header;
+}
+
+.nav{
+    grid-area:navigation;
+}
+
+.main{
+    grid-area:main;
+}
+
+.footer{
+    grid-area:footer;
+}
